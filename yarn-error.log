@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\tonys\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add standard
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\tonys\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Users\tonys\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\tonys\AppData\Local\Programs\Python\Python38-32;C:\Users\tonys\AppData\Local\Microsoft\WindowsApps;C:\Users\tonys\AppData\Local\GitHubDesktop\bin;C:\Users\tonys\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\tonys\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\tonys\Documents\GitHub\js-fundamentals-v2\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\tonys\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\tonys\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\tonys\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "standard": "^14.3.3"
+  },
+  "scripts": {
+    "build:standard":"standard --fix \"challenges\\*.js\" standard --fix \"lectures\\*.js\""
+  },
+  "name": "js-fundamentals-v2",
+  "version": "1.0.0",
+  "description": "fiddling with some js to get better at it",
+  "author": "tony sulfaro",
+  "license": "MIT",
+  "private": false
+}
