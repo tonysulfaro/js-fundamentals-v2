@@ -4,7 +4,8 @@ var suspects = [
   {
     name: 'Rusty',
     color: 'orange'
-  }, {
+  },
+  {
     name: 'Miss Scarlet',
     color: 'red'
   }

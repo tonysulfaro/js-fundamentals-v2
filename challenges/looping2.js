@@ -5,14 +5,15 @@ const game = {
     {
       name: 'Rusty',
       color: 'orange'
-    }, {
+    },
+    {
       name: 'Miss Scarlet',
       color: 'red'
     }
   ]
 }
 
-game.suspects.forEach((suspect) => {
+game.suspects.forEach(suspect => {
   console.log(suspect)
   if (suspect.name === 'rusty') {
     suspect.guilty = true

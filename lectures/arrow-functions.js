@@ -7,5 +7,5 @@ $('body').hide()
 myArr.forEach(val => console.log(val))
 
 $('button').on('click', () => {
-  console.log('Don\'t press my buttons!')
+  console.log("Don't press my buttons!")
 })

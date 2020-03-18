@@ -1,18 +1,18 @@
-function CreateSuspectObjects (name) {
+function CreateSuspectObjects(name) {
   return {
     name: name,
     color: name.split(' ')[1],
-    speak: function () {
+    speak: function() {
       console.log('my name is ', name)
     }
   }
-};
+}
 
 var suspects = ['Miss Scarlet', 'Colonel Mustard', 'Mr. White']
 
 const suspectList = []
 
-suspects.forEach((suspect) => {
+suspects.forEach(suspect => {
   console.log(CreateSuspectObjects(suspect))
   suspectList.push(CreateSuspectObjects(suspect))
 })

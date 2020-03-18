@@ -10,6 +10,11 @@ const peacock = {
   plea: 'never would I'
 }
 
+const white = {
+  murderer: false,
+  plea: 'how could have I done such a thing??'
+}
+
 const game = {
   characters: [],
   round: 0
@@ -17,5 +22,6 @@ const game = {
 
 game.characters.push(mustard)
 game.characters.push(peacock)
+game.characters.push(white)
 
 console.log(game)
